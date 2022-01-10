@@ -4,12 +4,12 @@ MDScreen:
     MDBoxLayout:
         orientation:'vertical'
         MDBoxLayout:
-            size_hint_y:.25
+            size_hint_y:.15
             padding:dp(25)
             MDBoxLayout:
                 orientation:"vertical"
                 MDLabel:
-                    text:"SmartHome"
+                    text:"Xin chào"
                     font_style:"H4"
                 MDBoxLayout:
                     adaptive_size:True
@@ -22,47 +22,47 @@ MDScreen:
                         icon:'chevron-down'
 
             MDIconButton:
-                icon:"images/audio.png"
+                icon:"images/microphone.png"
         MDGridLayout:
             size_hint_y:.75
             cols:2
             padding:[dp(15),dp(15),dp(15),dp(35)]
             spacing:dp(15)
             ElementCard:
-                image:"images/calendar.png"
-                text:"Calender"
-                subtext:"March, Wednesday"
-                items_count:"3 Events"
+                image:"images/interior-design.png"
+                text:"Living Room"
+                # subtext:"March, Wednesday"
+                items_count:"x3 Devices"
 
             ElementCard:
-                image:"images/food.png"
-                text:"Groceries"
-                subtext:"Broccoli, Apple"
-                items_count:"4 Items"
+                image:"images/kitchen.png"
+                text:"Kitchen"
+                #subtext:"Broccoli, Apple"
+                items_count:"x3 Devices"
 
             ElementCard:
-                image:"images/map.png"
-                text:"Location"
-                subtext:"Lucy Mao going to Office"
-                items_count:""
+                image:"images/bath.png"
+                text:"Bathroom"
+                #subtext:"Lucy Mao going to Office"
+                items_count:"x3 Devices"
 
             ElementCard:
-                image:"images/festival.png"
-                text:"Activity"
-                items_count:""
-                subtext:"Rose favorite your Post"
+                image:"images/bedroom.png"
+                text:"Bedroom"
+                items_count:"x3 Devices"
+                #subtext:"Rose favorite your Post"
 
             ElementCard:
-                image:"images/todo.png"
-                text:"To Do"
-                subtext:"Homework, Design"
-                items_count:"4 Items"
+                image:"images/garage.png"
+                text:"Garage"
+                #subtext:"Homework, Design"
+                items_count:"x3 Devices"
 
             ElementCard:
-                image:"images/settings.png"
-                text:"Setting"
+                image:"images/workspace.png"
+                text:"Office"
                 subtext:""
-                items_count:"4 Items"
+                items_count:"x3 Devices"
 
 
 <ElementCard@MDCard>:
